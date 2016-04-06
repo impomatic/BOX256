@@ -1,4 +1,7 @@
 # BOX-256 Solutions
 
-CheckerBoard - 0x16h cycles, 34 threads
-FourSquares - 0x07h cycles, 16 threads, overlapping code
+|Puzzle|Cycles|Threads|
+|------|-----:|-----:|
+|CheckerBoard|0x16h|0x22h|
+|FourSquares|0x07h|0x10h|
+
