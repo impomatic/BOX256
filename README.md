@@ -1,11 +1,11 @@
 # BOX-256 Solutions
 
-|Puzzle|Cycles|Threads|
-|------|-----:|-----:|
-|BlueSquare|0x07h|0x0Fh|
-|CheckerBoard|0x16h|0x22h|
-|FourSquares|0x07h|0x10h|
-|SmileyFace|0x2Eh|0x16h|
+|Puzzle|Cycles|Threads|Instructions|
+|------|-----:|-----:|-----:|
+|BlueSquare|0x07h|0x0Fh|0x3Ah|
+|CheckerBoard|0x16h|0x22h|0x22h|
+|FourSquares|0x07h|0x10h|0x42h|
+|SmileyFace|0x2Eh|0x16h|0x3Ah|
 
 Useful links:
 * [Official BOX-256 website](http://box-256.com/)
