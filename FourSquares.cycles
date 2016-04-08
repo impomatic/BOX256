@@ -1,4 +1,6 @@
-; Four Squares in 7 cycles. Uses 16 threads and overlapping code.
+; Four Squares in 7 cycles. Uses 16 threads and overlapping code
+; John Metcalf
+
 07F 078 000 000
 07F 040 000 000
 07F 026 000 000
