@@ -1,0 +1,8 @@
+; checkerboard in 0x05h instructions
+; John Metcalf
+
+ADD 001 @11 @11
+MUL 088 @11 @12
+DIV @12 080 @12
+ADD 002 @12 @12
+PIX 0FF 000 000
