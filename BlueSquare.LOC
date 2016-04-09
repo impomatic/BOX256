@@ -1,0 +1,9 @@
+; Blue Square in 0x06h instructions
+; John Metcalf
+
+ADD @09 001 @09
+ADD @0D -10 @0D
+PIX 0D1 001 000
+PIX 0E2 001 000
+JGR 0DD @09 @00
+FLP @02 @06 001
