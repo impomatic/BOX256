@@ -1,4 +1,4 @@
-; Carpet II in 0x17h cycles / 0x10h threads
+; Carpet II in 0x17h cycles / 0x20h threads
 ; John Metcalf
 
 PIX 0FF 00B 000
