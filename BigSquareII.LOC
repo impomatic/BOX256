@@ -1,0 +1,11 @@
+; Big Square II in 0x8h instructions
+; John Metcalf
+
+PIX @18 002 000
+ADD @16 @18 @18
+MOV @18 @20 001
+MOV @19 @18 008
+FLP @16 @17 001
+JMP @00 001 010
+011 031 021 032
+0D3 01D 0E3 01E
