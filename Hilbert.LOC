@@ -1,3 +1,6 @@
+; Hilbert Curve in 0x18h instructions / 0x373h cycles
+; John Metcalf
+
 PIX 001 @1A 000
 ADD @24 @01 @01
 MOV @1A @20 001
