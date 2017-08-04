@@ -1,0 +1,16 @@
+; Univeral Solution in 0xAh instructions / ~1.7×10^309 cycles
+; John Metcalf
+
+; solves all BOX-256 challenges by cycling through all 16^256 possible images
+; estimated runtime approx 1.2×10^300 years
+
+MOV @26 @28 002
+ADD @28 001 @28
+ADD *28 001 *28
+PIX @29 *28 000
+DIV *28 010 @2A
+ADD @29 001 @29
+PIX @29 @2A 000
+ADD @29 001 @29
+JEQ *28 000 @04
+JMP @00 02F 000
