@@ -1,16 +1,11 @@
-; Four Squares in 0x0Dh instructions
+; Four Squares in 0x08h instructions
 ; John Metcalf
 
-MOV 004 @0F 001
-ADD @0D 001 @0D
-ADD @11 -10 @11
-PIX 02F @12 000
-PIX 040 008 000
-SUB @0F 001 @0F
-JGR @0F 000 @04
-FLP @06 @0A 001
-MOV 003 @0F 001
-JGR 080 @0A @04
-ADD @0D 070 @0D
-ADD @11 081 @11
-ADD @12 001 @12
+    PIX 013 008 000
+    ADD @14 @01 @01
+    ADD @05 001 @05
+    JGR 020 @05 @00
+    MOV 014 @05 001
+    SUB @02 0FF @02
+    0CD 023 0FD 0F0
+    0F3 0FF 0FF 056
