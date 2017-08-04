@@ -1,0 +1,19 @@
+; Mobile programs inspired by Core War imps
+; John Metcalf
+
+; 3 instruction imp
+
+MOV @FF @FE 001
+ADD @FE 00C @FD
+FLP *FE *FD 00C
+
+; 2 instruction imp
+
+ADD @FF 0FC @FE
+MOV *FE *FF 00C
+
+; 1 instruction / 2 thread imp
+
+THR @08 000 000
+MOV *FF *FE 004
+
