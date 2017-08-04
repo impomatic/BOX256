@@ -1,0 +1,8 @@
+; Sierpinski in 0x05h instructions
+; John Metcalf
+
+PIX 000 @13 000
+ADD @13 @12 @23
+ADD 001 @01 @01
+MOV @13 @12 012
+JMP @00 000 008
