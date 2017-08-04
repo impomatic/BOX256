@@ -1,0 +1,10 @@
+An example of how to implement call / ret subroutines in BOX-256
+Uses locations 0xF8-0xFF as a stack
+
+    MOV @F9 @F8 007 ; | call 0xE0
+    JMP @E0         ; |
+
+    ; ...
+
+    ADD @FE 008 @FE ; | return
+    MOV @F8 @F9 007 ; |
