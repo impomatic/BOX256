@@ -1,0 +1,9 @@
+; Carpet II in 0x6h instructions
+; John Metcalf
+
+ADD 001 @0D @0D
+FLP @0E @0F 001
+MOD @0D 005 @17
+PIX 0FF 00B 003
+JNE @17 002 @00
+PIX @0D @0F 000
