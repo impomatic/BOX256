@@ -1,0 +1,12 @@
+; Sierpinski II in 0x9h instructions
+; John Metcalf
+
+ADD @23 @22 @33
+ADD 001 @1D @1D
+MOV @23 @22 012
+JEQ 000 @22 @00
+MOD @22 002 @1E
+JEQ 001 @1E @1C
+MOV 00C @1E 001
+PIX 0FF 000 000
+JMP @00 000 001
