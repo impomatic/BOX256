@@ -13,9 +13,12 @@
 |CheckerBoard|0x3FC5h|0x01h|0x05h|
 |FourSquares|0x0160h|0x01h|0x0Dh|
 |SmileyFace|0x06E5h|0x01h|0x0Fh|
+|HibertCurve|0x06BAh|0x01h|0x26h|
 
 Useful links:
 * [Official BOX-256 website](http://box-256.com/)
 * [BOX-256 manual](http://box-256.com/manual)
 * [BOX-256 on the programming games wiki](http://programminggames.org/BOX-256.ashx)
 * [A brief guide to BOX-256 threads](http://corewar.co.uk/box256/threads.htm)
+* [Pandora: BOX-256 Forth](http://corewar.co.uk/box256/pandora.htm)
+
