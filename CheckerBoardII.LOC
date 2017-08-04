@@ -1,0 +1,9 @@
+; Checkerboard II in 0x06h instructions
+; John Metcalf
+
+ADD *00 001 *00
+DIV *00 002 @2F
+MUL 088 @2F @2F
+PIX *00 001 000
+JGR 080 @2F @00
+PIX *00 00C 000
